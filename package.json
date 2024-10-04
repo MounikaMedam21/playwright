@@ -1,0 +1,24 @@
+{
+  "name": "playwrightcucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js src/test/features/createAccount.feature src/test/features/loginPage.feature src/test/features/gears.feature src/test/features/fitnessEquipment.feature src/test/features/mensTops.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "playwright": "^1.46.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.0",
+    "node-ts": "^6.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
